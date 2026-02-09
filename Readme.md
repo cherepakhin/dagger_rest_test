@@ -1,4 +1,4 @@
-### Behave тестирование RestAssured проекта Dagger_Rest
+## Behave тестирование RestAssured проекта Dagger_Rest
 
 Для проведения тестов использован RestAssured<br/>
  [https://github.com/rest-assured/rest-assured](https://github.com/rest-assured/rest-assured/wiki/GettingStarted).
@@ -15,7 +15,7 @@
 mvn -N wrapper:wrapper -Dmaven=3.5.2
 ````
 
-# Проведение теста
+### Проведение теста
 
 ```shell
 /dagger_rest_test$ ./mvnw clean test
