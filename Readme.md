@@ -16,6 +16,10 @@
 /dagger_rest_test$ ./allure serve target/surefire-reports/
 ```
 
+Отчет Allure Report 
+
+![doc/dagger_allure_result.png](doc/dagger_allure_result.png)
+
 ### Памятка по группировке тестов allure
 
 Пример:
