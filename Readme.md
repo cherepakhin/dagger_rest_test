@@ -27,38 +27,6 @@ mvn -N wrapper:wrapper -Dmaven=3.5.2
 
 ![doc/dagger_allure_result.png](doc/dagger_allure_result.png)
 
-### Памятка по группировке тестов allure
-
-Пример:
-
-```java
-@Tag("companies")
-@Epic("REST API Companies")
-@DisplayName("companies Test") 
-@Story("Companies requests test")
-@Feature("Verify CRUD Operations on Companies")
-public class AnimalsTest {
- 
-}
-
-```
-
-По пакетам:
-
-![По пакетам](doc/group_by_package.png)
-
-По строгости (критичности) - аннотация @Severity(SeverityLevel.NORMAL). Работа аннотаций @Epic, @Suite:
-
-![@DisplayName или Suites](doc/group_by_suites.png)
-
-Отчет с ошибками:
-
-![Отчет с ошибками](doc/result_test_error.png)
-
-### Шпаргалка по вложенности
-
-![Epic-Feature-Story](doc/hierarchy.png)
-
 ### Закладки
 
 https://docs.qameta.io/allure/
