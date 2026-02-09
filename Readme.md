@@ -1,4 +1,4 @@
-### Behave тестирование RestAssured
+### Behave тестирование RestAssured проекта Dagger_Rest
 
 Для проведения тестов использован RestAssured<br/>
  [https://github.com/rest-assured/rest-assured](https://github.com/rest-assured/rest-assured/wiki/GettingStarted).
