@@ -9,9 +9,16 @@
 Перед запуском тестов нужно запустить сам проект:
 [https://github.com/cherepakhin/dagger_rest](https://github.com/cherepakhin/dagger_rest)
 
-```shell
+Инициализация maven wrapper:
+
+````shell
+mvn -N wrapper:wrapper -Dmaven=3.5.2
+````
+
 # Проведение теста
-/dagger_rest_test$ mvn clean test
+
+```shell
+/dagger_rest_test$ ./mvnw clean test
 # Просмотр отчета в браузере
 /dagger_rest_test$ ./allure serve target/surefire-reports/
 ```
